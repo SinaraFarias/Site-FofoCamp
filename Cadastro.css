@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+header{
+    background-color: #5e17eb;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: fixed;
+    width: 100%;
+}
+.img{
+    width: 150px;
+}
+.ab{
+    background-color: #5e17ebbc;
+    padding: 5px 0;
+}
+.ab{
+    background-color:rgba(171, 132, 248, 0.317);
+    padding: 5px 0;
+}
+.ab a{
+    background-color: rgb(247, 247, 104);
+    color:black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    position: relative;
+    top: -83px; left: 700px;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #7d7b7b;
+}
+.ab a:hover{
+    background-color: white;
+}
+.busca form{
+    width: 380px;
+    left: 450px;
+    max-width: 100%;
+    position: relative;
+}
+.busca form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 130px 14px 15px;
+    border: 2px solid rgb(247, 247, 104);
+    border-radius: 30px;
+    outline: none;
+    font-weight: bold;
+    top: -40px;
+}
+.busca form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(247, 247, 104);
+    color:black;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #7d7b7b;
+    right: 4px;
+    top: 4px;
+    font-weight: bold;
+}
+.busca form input:hover{
+    background-color: white;
+}
+.form{
+    
+    text-align: center;
+    margin: 0 auto;    
+    width: 50%;
+    height: 50%;
+    columns: auto;
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    max-width: 600px;
+    background-color: #eae8e89f;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+  textarea {
+    height: 150px;
+}
+.selct{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+}
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #0069d9;
+}
+aside{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    align-items: center;
+    margin-top: 30px;
+    height: 100%;
+    text-align: center;
+}
+.FIM{
+    background-color: white;
+    padding: 5px 0 ;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fgh a{
+    text-decoration: none;
+  }
