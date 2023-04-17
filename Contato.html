@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>FOFOCAMP - A Fofoca em constante atualização</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Meu Currículo/cadastro.css">
+
+</head>
+
+<body id="h1">
+    
+	<header class="header">
+       
+        <a href="./index2.html"><img src="./2.png"/ class="img" ></a>
+	
+            <nav class="ab"> 		
+            
+             <a href="./index2.html">Home</a>
+             <a href="./cadastro.html">Cadastro</a>
+             <a href="./contato.html">Contato</a>   
+<!--             
+             <div class="busca">
+        <form>
+            <input type="busca" nome="busca" id="busca" placeholder="busca">
+            <input type="submit" name="submit" value="Começar">
+        </form>
+        </div> -->
+    </nav>
+    </header>
+    
+    
+    <div><br><br><br><br><br><br><br><br>
+        <br><br><br></div>
+    <div class="body">
+        
+        <form class="form" name="Contato" onsubmit="return validarCadastro()" method="post">
+            <h1>Entre em Contato:</h1>
+           
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome">
+    <br><br>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+    <br><br>
+          <label for="mensagem">Mensagem:</label>
+          <textarea type="text" id="mensagem" name="mensagem" required></textarea>
+          <br><br>      
+          <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+    <script>
+        function validarCadastro(){
+            var nomePessoa = document.forms["Contato"]["nome"].value;
+            if (nomePessoa == "") {
+                alert("Favor informar o seu nome!");
+                return false;     
+            }
+            else{
+                alert("Olá, " + nomePessoa + " !");
+                return true;
+            }
+        }
+    </script>
+    <aside class="propaganda">
+        <div> 
+            <a href="https://www.tntenergydrink.com.br/" target="_blank">
+            <img src="../Meu Currículo/89f74134-a50f-4327-ade6-426d07188357.jpg" width="250px" height="200px">
+        </a>
+        </div>
+        <br><br><br>
+        <div> 
+            <a href="https://eletromidia.com.br/" target="_blank">
+           <img src="../Meu Currículo/9ebfb67b-3210-46f8-8883-50c0aefecf74.jpg" width="250px" height="200px">
+        </a>
+        </div> 
+        <br><br><br>
+        <div> 
+            <a href="https://blog.soulcode.com/" target="_blank">
+        <img src="./transferir.jpg" width="250px" height="200px">
+    </a>    
+    </div> 
+     </aside>       
+    
+    <footer class="FIM">
+        <div class="fgh">
+            <ol type="changeHandler">
+                <br>
+                <ul> <a href="#h1">Voltar ao Topo</a></ul>
+                <br>
+            </ol>
+            <a href="https://instagram.com/soulcodeacademy?igshid=YmMyMTA2M2Y=" target="_blank">
+                <img src="../Meu Currículo/Design sem nome (7).png" width="100px" height="50px">
+            </a>
+                <a href="https://www.linkedin.com/company/soulcodeacademy/mycompany/" target="_blank">
+                <img src="../Meu Currículo/Design sem nome (6).png" width="90px" height="50px">
+            </a>
+                <img src="../Meu Currículo/soulcode logo.png" width="80px" height="50px">
+        </footer>
+</body>
+</html>
